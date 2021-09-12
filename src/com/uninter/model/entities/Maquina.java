@@ -26,7 +26,7 @@ public class Maquina {
         //NIVEL 01
         if (nivel == 1) {
             for (int i = 0; i < 8; i++) {
-                if (tabuleiro.getBotoesArray()[i].quemJogou == 0 &&
+                if (tabuleiro.getBotoesArray()[i].getQuemJogou() == 0 &&
                         ButtonController.playerJogando == GameMatch.PLAYER_02) {
                     tabuleiro.getBotoesArray()[i].doClick();
                     i = 7;
@@ -36,7 +36,7 @@ public class Maquina {
         //NIVEL 02
         if (this.nivel == 2) {
             for (int i = 8; i > 0; i--) {
-                if (tabuleiro.getBotoesArray()[i].quemJogou == 0 &&
+                if (tabuleiro.getBotoesArray()[i].getQuemJogou() == 0 &&
                         ButtonController.playerJogando == GameMatch.PLAYER_02) {
                     tabuleiro.getBotoesArray()[i].doClick();
                     i = 1;
@@ -49,7 +49,7 @@ public class Maquina {
             int i = 0;
             while (i < 9) {
                 i = gerador.nextInt(9);
-                if (tabuleiro.getBotoesArray()[i].quemJogou == 0 &&
+                if (tabuleiro.getBotoesArray()[i].getQuemJogou() == 0 &&
                         ButtonController.playerJogando == GameMatch.PLAYER_02) {
                     tabuleiro.getBotoesArray()[i].doClick();
                     i = 9;

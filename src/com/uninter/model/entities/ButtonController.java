@@ -1,29 +1,32 @@
 package com.uninter.model.entities;
 
-import com.uninter.model.entities.levels.MaquinaUm;
-import com.uninter.model.entities.levels.MaquinaDois;
-import com.uninter.model.entities.levels.MaquinaTres;
+import com.uninter.model.service.TicTacToeService;
 
-import java.awt.*;
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.*;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
 
 public class ButtonController extends JButton implements ActionListener {
 //CLASSE JOGADOR REQUISTADA NO TRABALHO
 
-	private Control control;
+	private TicTacToeService ticTacToeService;
 
 	static int playerJogando = GameMatch.PLAYER_01;
-	int quemJogou = 0;
+	private int quemJogou = 0;
 	static int rodadas = 0;
+
+	public int getQuemJogou() {
+		return quemJogou;
+	}
 
 	static int test = 1;
 
-	public ButtonController(Control control){
+	public ButtonController(TicTacToeService ticTacToeService){
 		setBackground(Color.WHITE);
 
-		this.control = control;
+		this.ticTacToeService = ticTacToeService;
 
 		addActionListener(e->{
 
@@ -31,21 +34,21 @@ public class ButtonController extends JButton implements ActionListener {
 
 				setIcon(new ImageIcon(getClass().getResource("../images/circulo.png")));
 				quemJogou = playerJogando;
-				playerJogando = control.mudarVez(playerJogando);
+				playerJogando = ticTacToeService.mudarVez(playerJogando);
 				//Há ação do primero botão desencadeia o segundo
-				control.jogar(playerJogando);
+				ticTacToeService.jogar(playerJogando);
 			}
 			else{
 
 				setIcon(new ImageIcon(getClass().getResource("../images/x.png")));
 				quemJogou = playerJogando;
-				playerJogando = control.mudarVez(playerJogando);
+				playerJogando = ticTacToeService.mudarVez(playerJogando);
 
 			}
 			rodadas++;
 			System.out.println(rodadas);
-			control.testarVitoria(quemJogou);
-			control.testarVelha(rodadas);
+			ticTacToeService.testarVitoria(quemJogou);
+			ticTacToeService.testarVelha(rodadas);
 
 
 		});

@@ -1,5 +1,7 @@
 package com.uninter.model.entities;
 
+import com.uninter.model.service.TicTacToeService;
+
 import javax.swing.*;
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -10,7 +12,7 @@ import java.awt.GridLayout;
 public class Tabuleiro extends JFrame {
 
 
-    private Control control;
+    private TicTacToeService ticTacToeService;
     private JPanel tela = new JPanel(new GridLayout(3, 3, 10, 10)); //Criando de uma tela 3x3
     private JLabel informacao = new JLabel("JOGO DA VELHA - Nivel : ");
     private ButtonController[] botoesArray = new ButtonController[9]; //Cria��o dos bot�es para colocar x ou o
@@ -68,9 +70,9 @@ public class Tabuleiro extends JFrame {
         setVisible(true);
     }
 
-    public void addBotoes(Control control){
+    public void addBotoes(TicTacToeService ticTacToeService){
         for (int i = 0; i < 9; i++) {
-            ButtonController objButton = new ButtonController(control);
+            ButtonController objButton = new ButtonController(ticTacToeService);
             botoesArray[i] = objButton;  //objBotoes contem setBackground(color.white) + A��o;
             tela.add(objButton);
         }

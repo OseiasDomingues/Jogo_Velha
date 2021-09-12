@@ -2,31 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebf834f3-b39d-40f5-bc44-537ce7105b17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/uninter/model/entities/ButtonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uninter/model/entities/Control.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uninter/model/entities/levels/MaquinaDois.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uninter/model/entities/levels/MaquinaTres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uninter/model/entities/levels/MaquinaUm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/uninter/button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/uninter/circulo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/uninter/computador1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/uninter/computador2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/uninter/computador3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/uninter/computadores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/uninter/janela.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/uninter/jv_main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/uninter/tabuleiro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/uninter/x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uninter/button.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uninter/circulo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uninter/model/images/circulo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uninter/computador1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uninter/computador2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uninter/computador3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uninter/computadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uninter/model/entities/Maquina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uninter/janela.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uninter/model/entities/Tabuleiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uninter/jv_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uninter/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uninter/tabuleiro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uninter/x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uninter/model/images/x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/uninter/application/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/uninter/application/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/uninter/model/entities/ButtonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/uninter/model/entities/ButtonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/uninter/model/entities/Control.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/uninter/model/entities/GameMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/uninter/model/entities/GameMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/uninter/model/entities/Maquina.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/uninter/model/entities/Maquina.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/uninter/model/entities/Tabuleiro.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/uninter/model/entities/Tabuleiro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uninter/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uninter/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uninter/model/entities/ButtonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uninter/model/entities/ButtonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uninter/model/entities/Control.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uninter/model/service/TicTacToeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uninter/model/entities/GameMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uninter/model/entities/GameMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uninter/model/entities/Maquina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uninter/model/entities/Maquina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uninter/model/entities/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uninter/model/entities/Tabuleiro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
