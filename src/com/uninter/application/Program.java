@@ -1,8 +1,10 @@
-package com.uninter;
+package com.uninter.application;
+
+import com.uninter.model.entities.*;
 
 import javax.swing.JOptionPane;
 
-public class jv_main {
+public class Program {
 	static int nivel;
 	public static void main(String[] args) {
 		//Escolha de nivel da maquina
@@ -13,9 +15,11 @@ public class jv_main {
 	     
 	     nivel++;
 	     JOptionPane.showMessageDialog(null, "Você Escolheu o nível : " + nivel);
-	     computadores.definirDif(nivel);
 	     //Chamada da janela
-		 new janela();
+
+
+		GameMatch gameMatch = new GameMatch(nivel);
+
 		
 	}
 
